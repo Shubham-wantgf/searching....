@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&family=Permanent+Marker&display=swap');
+body{
+    background-color: black;
+}
+
+.ques{
+    color: white;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    background-image: url(https://i.pinimg.com/736x/c3/51/00/c351007fb1a9ddc3a6e5ac57698980d6.jpg);
+    background-position: center;
+    background-size: 300px, 400px;
+    height: 250px;
+}
+
+.yes{
+    float: left;
+    height: 50px;
+    width: 80px;
+    margin-left: 30px;
+}
+
+.no{
+    float: right;
+    height: 50px;
+    width: 80px;
+    margin-right: 30px;
+}
+.option{
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
+    backdrop-filter: blur(10px);
+    background-color: black;
+    border-radius: 40px;
+    width: 90px;
+    background-image: linear-gradient(to right,
+     #000000,#0c0b0b,#000000);
+}
+h2{
+    backdrop-filter: blur(2px);
+    margin-top: 50px;
+}
+h4{
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
+}
+
